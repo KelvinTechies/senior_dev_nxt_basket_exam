@@ -167,6 +167,24 @@ a {
   .l_div .smm {
     width: 260px !important;
   }
+  .product_page .desktop-products-card-42 .container .row {
+    display: flex ;
+    align-items: flex-start;
+    gap: 13rem;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .product_page .desktop-products-card-42 .col-md-6{
+    width: 100% !important;
+    height: 500px !important;
+  }
+.product_page .desktop-products-card-42 .col-md-6_2 {
+    width: 100% !important;
+    height: 500px !important;
+
+
+}
 }
 
 @media screen and (max-width: 1002px) {
@@ -395,6 +413,25 @@ a {
   .sub_over .col-md-4 .bg-cover {
     width: 90%;
   }
+
+  .product_page .desktop-products-card-42 .container .row {
+    display: flex ;
+    align-items: flex-start;
+    gap: 5rem;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .product_page .desktop-products-card-42 .col-md-6{
+    width: 100% !important;
+    height: 500px !important;
+  }
+.product_page .desktop-products-card-42 .col-md-6_2 {
+    width: 100% !important;
+    height: 500px !important;
+
+
+}
 }
 
 @media screen and (max-width:745px) {
@@ -448,7 +485,40 @@ a {
       .mobile_nav a {
         text-decoration: none;
       }
+
+      .product_page {
+        margin-top: 4.5rem;
+        width: 100%;
+      }
+      .product_page .desktop-products-card-42{
+
+        width: 100%;
+      }
+      .product_page .desktop-products-card-42 .container  {
+        width: 800px;
+      }
+
+        .product_page .desktop-products-card-42 .container .row {
+        display: flex ;
+        align-items: flex-start;
+        gap: 9rem;
+        flex-direction: column;
+        width: 600px;
+       
+        height: 100%;
+      }
+
+
+      .product_page .desktop-products-card-42 .col-md-6{
+        width: 100% !important;
+        height: 500px !important;
+      }
+    .product_page .desktop-products-card-42 .col-md-6_2 {
+        width: 100% !important;
+        height: 500px !important;
     
+    
+    }
 }
 
 @media screen and (max-width: 596px) {
